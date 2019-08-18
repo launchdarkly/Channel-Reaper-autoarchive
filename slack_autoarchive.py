@@ -187,7 +187,7 @@ This script was run from this repo: https://github.com/Symantec/slack-autoarchiv
         payload = {
             'channel': channel_id,
             'username': 'channel_reaper',
-            'icon_emoji': ':ghost:',
+            'icon_emoji': ':channel_reaper:',
             'text': message
         }
         api_endpoint = 'chat.postMessage'
