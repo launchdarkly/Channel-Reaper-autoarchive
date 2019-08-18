@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 
 def get_channel_reaper_settings():
     """ This returns a dictionary of all settings. """
-    days_inactive = int(os.environ.get('DAYS_INACTIVE', 60))
+    days_inactive = int(os.environ.get('DAYS_INACTIVE', 360))
     return {
         'admin_channel': os.environ.get('ADMIN_CHANNEL', ''),
         'days_inactive': days_inactive,
